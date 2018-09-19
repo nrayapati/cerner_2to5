@@ -20,7 +20,7 @@
 import json, requests
 
 headers = {'Accept': "application/vnd.github.loki-preview",
-           'authorization': "token 7381777c69e665399c5345e42e27d8ae54eb9c37"}
+           'authorization': "token <TOKEN>"}
 
 repos = []
 response = requests.get("https://api.github.com/search/code?q=cerner_2^5_2018", headers=headers)
