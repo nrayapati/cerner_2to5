@@ -1,4 +1,4 @@
-;; implementing comparator in Clojure, soring users by subscription. cerner_2^5_2018
+;; implementing comparator in Clojure, sorting users by subscription. cerner_2^5_2018
 ;; User has subscription and each subscription have a name, to sort these users by subscription name.
 (sort (comparator
        (fn [u1 u2]
